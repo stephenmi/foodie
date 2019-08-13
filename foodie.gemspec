@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Write a longer description or delete this line."
   spec.homepage      = "https://github.com/stephraj/foodie"
 
-  spec.metadata["allowed_push_host"] = "'https://github.com/stephraj/foodie'"
+  # spec.metadata["allowed_push_host"] = "'https://github.com/stephraj/foodie'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/stephraj/foodie"
