@@ -1,7 +1,7 @@
 require 'thor'
 require 'foodie'
 require 'foodie/generators/recipe'
-
+ 
 module Foodie
   class CLI < Thor
   	desc "portray ITEM", "Determines if a piece of food is gross or delicious"
