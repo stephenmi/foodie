@@ -10,9 +10,10 @@ module Foodie
 		end
 
 		desc "pluralize", "Pluralizes a word"
+
 		method_option :word, aliases: "-w"
 		def pluralize
-		  puts Foodie::Food.pluralize(options[:word])
+		  puts Foodie::Food.pluralize options[:word]
 		end
 
 		desc "recipe", "Generates a recipe scaffold"
